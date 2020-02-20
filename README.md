@@ -74,6 +74,22 @@ Exemplo: Controle dos estados de um orçamento
 Case: state-case
 Implementação: state-impl
 
+Padrão Builder
+
+Definição (Intenção/Objetivo): Separate the construction of a complex object from its representaion so thet the same construction process can create differente representations.
+Quando usar:
+
+Sempre que tivermos um objeto complexo de ser criado, que possui diversos atributos, ou que possui uma lógica de criação complicada, podemos esconder tudo isso em um Builder.
+
+Além de centralizar o código de criação e facilitar a manutenção, ainda facilitamos a vida das classes que precisam criar essa classe complexa, afinal a interface do Builder tende a ser mais clara e fácil de ser usada.
+
+Estrutura: 
+Exemplo: Criação de um objeto Nota Fiscal.
+Case: state-case
+Implementação: state-impl
+
+
+
 Referencias:
 https://www.alura.com.br/curso-online-design-patterns
 Livro Design Patterns - Elements of Reusable Object-Oriented Software
