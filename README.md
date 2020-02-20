@@ -85,8 +85,8 @@ Além de centralizar o código de criação e facilitar a manutenção, ainda fa
 
 Estrutura: 
 Exemplo: Criação de um objeto Nota Fiscal.
-Case: state-case
-Implementação: state-impl
+Case: builder-case
+Implementação: builder-impl
 
 
 
