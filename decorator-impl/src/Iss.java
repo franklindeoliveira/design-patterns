@@ -1,0 +1,13 @@
+
+public class Iss extends Imposto {
+	
+	public Iss(Imposto outroImposto) {
+        super(outroImposto);
+    }
+
+	@Override
+	public double calcula(Orcamento orcamento) {
+		return orcamento.getValor() * 0.1 + calculoDoOutroImposto(orcamento);
+	}
+
+}
