@@ -7,7 +7,7 @@ São soluções "elegantes" para problemas recorrentes em desenvolvimento de sof
 
 ## Padrão Strategy
 
-**Objetivo)**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+**Objetivo**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 **Quando usar?** O padrão Strategy é muito útil quando temos um conjunto de algoritmos similares, e precisamos alternar entre eles em diferentes pedaços da aplicação.
 No exemplo do vídeo, temos diferentes maneiras de calcular o imposto, e precisamos alternar entre elas.
@@ -23,7 +23,7 @@ O Strategy nos oferece uma maneira flexível para escrever diversos algoritmos d
 
 ## Padrão Chain of Responsibility
 
-**Objetivo)**: Avoid coupling the sender of request to its receiver by giving more than one object a chance to handle the request. Chan the receiving objects and pass the request along the chain until an object handles it.
+**Objetivo**: Avoid coupling the sender of request to its receiver by giving more than one object a chance to handle the request. Chan the receiving objects and pass the request along the chain until an object handles it.
 
 **Quando usar**: O padrão Chain of Responsibility cai como uma luva quando temos uma lista de comandos a serem executados de acordo com algum cenário em específico, e sabemos também qual o próximo cenário que deve ser validado, caso o anterior não satisfaça a condição.
 
@@ -39,7 +39,7 @@ Nesses casos, o Chain of Responsibility nos possibilita a separação de respons
 
 ## Padrão Template Method
 
-**Objetivo)**: Define the skeleton of an algorithm in an operation, deferring some steps to sobclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s strutcture.
+**Objetivo**: Define the skeleton of an algorithm in an operation, deferring some steps to sobclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s strutcture.
 
 **Quando usar**: Quando temos diferentes algoritmos que possuem estruturas parecidas, o Template Method é uma boa solução. Com ele, conseguimos definir, em um nível mais macro, a estrutura do algoritmo e deixar "buracos", que serão implementados de maneira diferente por cada uma das implementações específicas.
 
@@ -54,7 +54,7 @@ Dessa forma, reutilizamos ao invés de repetirmos código, e facilitamos possív
 
 ## Padrão Decorator
 
-**Objetivo)**: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+**Objetivo**: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 Quando usar:
 
 Sempre que percebemos que temos comportamentos que podem ser compostos por comportamentos de outras classes envolvidas em uma mesma hierarquia, como foi o caso dos impostos, que podem ser composto por outros impostos. O Decorator introduz a flexibilidade na composição desses comportamentos, bastando escolher no momento da instanciação, quais instancias serão utilizadas para realizar o trabalho.
@@ -68,7 +68,7 @@ Sempre que percebemos que temos comportamentos que podem ser compostos por compo
 
 ## Padrão State
 
-**Objetivo)**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+**Objetivo**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
 **Quando usar**: A principal situação que faz emergir o Design Pattern State é a necessidade de implementação de uma máquina de estados. Geralmente, o controle das possíveis transições são vários e complexos, fazendo com que a implementação não seja simples. O State auxilia a manter o controle dos estados simples e organizados através da criação de classes que representem cada estado e saiba controlar as transições.
 
@@ -82,7 +82,7 @@ Sempre que percebemos que temos comportamentos que podem ser compostos por compo
 
 ## Padrão Builder
 
-**Objetivo)**: Separate the construction of a complex object from its representaion so thet the same construction process can create differente representations.
+**Objetivo**: Separate the construction of a complex object from its representaion so thet the same construction process can create differente representations.
 
 **Quando usar**: Sempre que tivermos um objeto complexo de ser criado, que possui diversos atributos, ou que possui uma lógica de criação complicada, podemos esconder tudo isso em um Builder.
 
@@ -98,7 +98,7 @@ Além de centralizar o código de criação e facilitar a manutenção, ainda fa
 
 ## Padrão Observer
 
-**Objetivo)**: Define a one-to-many dependency between objects to that when on e object changes state, all its dependes are notified and updated automatically.
+**Objetivo**: Define a one-to-many dependency between objects to that when on e object changes state, all its dependes are notified and updated automatically.
 
 **Quando usar**: Quando o acoplamento da nossa classe está crescendo, ou quando temos diversas ações diferentes a serem executadas após um determinado processo, podemos implementar o Observer.
 
