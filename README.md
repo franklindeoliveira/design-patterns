@@ -112,6 +112,22 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 
 **Exercício**:
 
+## Padrão Flyweight
+
+**Objetivo**: Use sharing to support large numbers of fine-grained objects efficiently.
+
+**Quando usar**: Quando temos muitas instâncias do mesmo objeto andando pelo sistema, e precisamos economizar. Para tal, o Flyweight faz uso de uma fábrica modificada, que guarda essas instâncias..
+
+Ele permite que diversas ações sejam executadas de forma transparente à classe principal, reduzindo o acoplamento entre essas ações, facilitando a manutenção e evolução do código.
+
+**Estrutura**: 
+
+**Exemplo**: Notas musicais
+* Case: flyweight-case
+* Implementação: flyweight-impl
+
+**Exercício**:
+
 ---
 
 **Referencias**:
