@@ -112,6 +112,50 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 
 **Exercício**:
 
+## Padrão Flyweight
+
+**Objetivo**: Use sharing to support large numbers of fine-grained objects efficiently.
+
+**Quando usar**: Quando temos muitas instâncias do mesmo objeto andando pelo sistema, e precisamos economizar. Para tal, o Flyweight faz uso de uma fábrica modificada, que guarda essas instâncias..
+
+Ele permite que diversas ações sejam executadas de forma transparente à classe principal, reduzindo o acoplamento entre essas ações, facilitando a manutenção e evolução do código.
+
+**Estrutura**: 
+
+**Exemplo**: Notas musicais
+* Case: flyweight-case
+* Implementação: flyweight-impl
+
+**Exercício**:
+
+## Padrão Memento
+
+**Objetivo**: Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored and updated automatically.
+
+**Quando usar**: Quando queremos salvar e restaurar estados de objetos.
+
+**Estrutura**: 
+
+**Exemplo**: Gerenciar histórico de contratos
+* Case: memento-case
+* Implementação: memento-impl
+
+**Exercício**:
+
+## Padrão Interpreter
+
+**Objetivo**: Given a language, define a representation for its grammar along with an interpreter the uses the representation to interpret sentences in the language.
+
+**Quando usar**: O padrão Interpreter é geralmente útil para interpretar DSLs (se você não sabe o que é uma DSL. É comum que, ao ler a string (como por exemplo 2+3/4), o programa transforme-o em uma melhor estrutura de dados (como as nossas classes Expressao) e aí interprete essa árvore. É realmente um padrão de projeto bem peculiar, e com utilização bem específica.
+
+**Estrutura**: 
+
+**Exemplo**: Cálculo de expressões matemáticas.
+* Case: interpreter-case
+* Implementação: interpreter-impl
+
+**Exercício**:
+
 ---
 
 **Referencias**:
