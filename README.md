@@ -128,6 +128,20 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 
 **Exercício**:
 
+## Padrão Memento
+
+**Objetivo**: Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored and updated automatically.
+
+**Quando usar**: Quando queremos salvar e restaurar estados de objetos.
+
+**Estrutura**: 
+
+**Exemplo**: Gerenciar histórico de contratos
+* Case: memento-case
+* Implementação: memento-impl
+
+**Exercício**:
+
 ---
 
 **Referencias**:
