@@ -236,6 +236,18 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 * Case: singleton-case
 * Implementação: singleton-impl
 
+## Padrão Factory Method
+
+**Objetivo**: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+**Quando usar**: Quando precisamos isolar o processo de criação de um objeto, para facilitar a troca dele no futuro.
+
+**Estrutura**: 
+
+**Exemplo**: Criação de uma conexão com o banco de dados.
+* Case: factory-case
+* Implementação: factory-impl
+
 ---
 
 **Referencias**:
