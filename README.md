@@ -156,9 +156,50 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 
 **Exercício**:
 
+## Padrão Visitor
+
+**Objetivo**: Represent an operation to be performed on elements of an object struture. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
+**Quando usar**: Quando temos uma árvore, e precisamos navegar nessa árvore de maneira organizada, podemos usar um Visitor.
+
+**Estrutura**: 
+
+**Exemplo**: Navegar em uma arvore de expressões e imprimir as expressões em diferentes formatos (pré-fixa pós-fixa).
+* Case: visitor-case
+* Implementação: visitor-impl
+
+**Exercício**:
+
+## Padrão Bridge
+
+**Objetivo**: Decouple an abstraction from its implementation so that the two can vary independently.
+
+**Quando usar**: Quando é necessário acessar uma funcionalidade provida por serviços externos que possuem diferentes implementações.
+
+**Estrutura**: 
+
+**Exemplo**: Acessar uma API de mapas provida por diferentes serviços (Google Maps e MapLink, por exemplo).
+* Case: bridge-case
+* Implementação: bridge-impl
+
+**Exercício**:
+
+## Padrão Adapter
+
+**Objetivo**: Convert the interface of class into other interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+**Quando usar**: Quando queremos adaptar uma interface de modo a ser compatível com outra interface.
+
+**Estrutura**: 
+
+**Exemplo**: Criar uma nova interface para acesso a API de datas do Java.
+* Case: adapter-case
+* Implementação: adapter-impl
+
+**Exercício**:
+
 ---
 
 **Referencias**:
 * Curso: https://www.alura.com.br/curso-online-design-patterns
 * Livro: Design Patterns - Elements of Reusable Object-Oriented Software
-
