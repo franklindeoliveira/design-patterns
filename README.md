@@ -198,6 +198,44 @@ Ele permite que diversas ações sejam executadas de forma transparente à class
 
 **Exercício**:
 
+## Padrão Command
+
+**Objetivo**: Encapsulate a request as an object, thereby letting you parameterize clients with diferents requests, queue or log requests, and support undoable operations.
+
+**Quando usar**: Quando temos que separar os comandos que serão executados do objeto que ele pertence.
+
+**Estrutura**: 
+
+**Exemplo**: .
+* Case: command-case
+* Implementação: command-impl
+
+**Exercício**:
+
+## Padrão Facade
+
+**Objetivo**: Provide a unified interface to a set of interfaces in a subsystem. Facade defines a flexible alternative to subclassing for extending funcionality.
+
+**Quando usar**: Quando precisamos acessar uma série de serviços disponibilizados por sub-sistemas.
+
+**Estrutura**: 
+
+**Exemplo**: Empresa que possui regras de negócias que fazem acesso a diferentes sistemas, como faturamento, cobrança, contato ao cliente, etc.
+* Case: facade-case
+* Implementação: facade-impl
+
+## Padrão Singleton
+
+**Objetivo**: Ensure a class only has one instance, and provide a global point of access to it.
+
+**Quando usar**: Quando precisamos que haja apenas uma única instancia de uma classe no sistema.
+
+**Estrutura**: 
+
+**Exemplo**: Classe que segue o Facade e que é utilizada com frequencia em várias partes do sistema.
+* Case: singleton-case
+* Implementação: singleton-impl
+
 ---
 
 **Referencias**:
